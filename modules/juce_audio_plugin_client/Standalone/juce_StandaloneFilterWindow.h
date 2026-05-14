@@ -654,6 +654,7 @@ public:
           pluginHolder (std::move (pluginHolderIn)),
           optionsButton ("Options")
     {
+        // MODIFIED FROM SOURCE
         setUsingNativeTitleBar(true);
         setConstrainer (&decoratorConstrainer);
 
