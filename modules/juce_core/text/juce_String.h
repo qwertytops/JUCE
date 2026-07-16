@@ -171,6 +171,9 @@ public:
     /** Creates a string from a UTF-8 encoded std::string. */
     String (const std::string&);
 
+    /** Creates a string from a UTF-8 encoded std::string_view. */
+    String (std::string_view); // I ADDED THIS
+
     /** Creates a string from a StringRef */
     String (StringRef);
 
